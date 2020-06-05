@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/m4rc0s/einstein-bot/issues"
   },
-  "homepage": "https://github.com/m4rc0s/einstein-bot#readme"
+  "homepage": "https://github.com/m4rc0s/einstein-bot#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
