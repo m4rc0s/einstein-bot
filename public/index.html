@@ -47,15 +47,15 @@
             embedded_svc.settings.entryFeature = 'LiveAgent';
     
             embedded_svc.init(
-                'https://cpfl--dev3.my.salesforce.com',
-                'https://dev3-cpfl-chatbot.cs195.force.com/liveAgentSetupFlow',
+                'org_domain',
+                'setup_flow_url',
                 gslbBaseURL,
                 '00D020000008aM0',
                 'ChatBotMutant',
                 {
                     baseLiveAgentContentURL: 'https://c.la2-c1cs-ia4.salesforceliveagent.com/content',
-                    deploymentId: '572020000004C9D',
-                    buttonId: '573020000004C9X',
+                    deploymentId: 'deploymentId',
+                    buttonId: 'muttonId',
                     baseLiveAgentURL: 'https://d.la2-c1cs-ia4.salesforceliveagent.com/chat',
                     eswLiveAgentDevName: 'EmbeddedServiceLiveAgent_Parent04I02000000000kEAA_17252914b86',
                     isOfflineSupportEnabled: false
